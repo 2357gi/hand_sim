@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+td {
+  width: 60px; /* セルの幅を大きくします */
+  height: 30px; /* セルの高さを大きくします */
+  line-height: 30px; /* テキストを縦方向に中央揃えにするために、行の高さをセルの高さと同じにします */
+  padding: 5px; /* セルの内側にパディングを追加します */
+  margin: 5px; /* セル間にマージンを追加します */
+  box-sizing: border-box; /* パディングとボーダーが幅と高さに含まれるようにします */
+}
